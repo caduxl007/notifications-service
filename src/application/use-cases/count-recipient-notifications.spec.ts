@@ -3,7 +3,7 @@ import { InMemoryNotificationsRepository } from "../../../test/repositories/in-m
 import { CountRecipientNotifications } from "./count-recipient-notifications";
 
 describe("Count recipients notification", () => {
-  it("should be able to cancel notification", async () => {
+  it("should be able to count notifications", async () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
 
     const countRecipientNotifications = new CountRecipientNotifications(
